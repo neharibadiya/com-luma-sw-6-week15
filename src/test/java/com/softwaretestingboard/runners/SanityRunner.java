@@ -15,12 +15,12 @@ import org.junit.runner.RunWith;
                 "com.cucumber.listener.ExtentCucumberFormatter:target/Extent_Reports/report.html",
                 "json:target/RunCuke/cucumber.json"}
 )
-public class SanityRunner {
+public class SanityRunner{
 
     @AfterClass
     public static void setUp() {
         String projectPath = System.getProperty("user.dir");
-        String reportConfigPath = projectPath + "/src/test/java/resources/extentreport/extent-config.xml";
+        String reportConfigPath = projectPath + "src/test/java/resources/extentreport/extent-config.xml";
         Reporter.loadXMLConfig(reportConfigPath);
         Reporter.setSystemInfo("User Name", System.getProperty("user.name"));
         Reporter.setSystemInfo("Time Zone", System.getProperty("user.timezone"));

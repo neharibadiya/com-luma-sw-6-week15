@@ -46,7 +46,7 @@
     <dependency>
       <groupId>info.cukes</groupId>
       <artifactId>cucumber-junit</artifactId>
-      <version>1.2.6</version>
+      <version>1.2.5</version>
       <scope>test</scope>
     </dependency>
     <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
@@ -84,7 +84,7 @@
     <dependency>
       <groupId>com.aventstack</groupId>
       <artifactId>extentreports</artifactId>
-      <version>5.0.9</version>
+      <version>3.1.2</version>
     </dependency>
     <dependency>
       <groupId>log4j</groupId>

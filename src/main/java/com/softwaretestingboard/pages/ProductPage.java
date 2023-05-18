@@ -72,7 +72,7 @@ public class ProductPage extends Utility {
     WebElement changeField;
 
     @CacheLookup
-    @FindBy(xpath = "//button[@id='product-addtocart-button']")
+    @FindBy(xpath = "//button[@id='product-cartload-button']")
     WebElement addToCartButton;
 
 
